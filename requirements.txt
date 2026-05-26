@@ -1,0 +1,32 @@
+# ============================================================
+# requirements.txt — deepfake-detector-obsolescence
+# Environnement testé : Google Colab (runtime GPU T4, mai 2026)
+# Python : 3.10 (version Colab par défaut)
+#
+# Pour un environnement local ou HPC, voir la section 4 du README.
+# Les suffixes +cu128 sont spécifiques au runtime CUDA de Colab ;
+# ils peuvent être omis pour une installation CPU locale.
+# ============================================================
+
+# Deep learning
+torch==2.11.0+cu128
+torchvision==0.26.0+cu128
+
+# Données & analyse
+numpy==2.0.2
+pandas==2.2.2
+scipy==1.13.1
+
+# Machine learning
+scikit-learn==1.6.1
+
+# Visualisation
+matplotlib==3.10.0
+seaborn==0.13.2
+
+# Image
+pillow==11.3.0
+
+# Utilitaires
+tqdm==4.67.3
+pyyaml==6.0.3
